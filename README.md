@@ -13,16 +13,38 @@
 ### 遇到事件:
 - 1. 例如: Oops!!You are attack by the Whomping Willow(渾拚柳)!You are thrown to a random place on the map!
    - 1.1 會將玩家的位置隨機放到地圖上的任何一個地方
-### 遇到商店:
-- 1. 如果有錢的話可以選擇購買道具: sword, wand, cloak, protector, lifepotion, killing curse
-- 2. 如果背包有位置(slot符合) 、重量符合(<=backpack_weight_limit) 就可以購買
+### 遇到商店:Welcome to Honey's Duke!
+#### 如果有錢的話可以選擇購買道具: sword, wand, cloak, protector, lifepotion, killing curse
+#### 如果背包有位置(slot符合) 、重量符合(<=backpack_weight_limit) 就可以購買
+#### 道具有以下幾種
+##### Press a to buy a sword, b to buy a wand, c to buy a cloak,d to buy a protector, e to buy a lifepotion,f to buy a killing curse.
+##### Press x to leave
+- 1. sword(weaponitem): $20// requierd level=1 
+- 2. wand(weaponitem): $30// required level=3 
+- 3. cloak(armoritem): $50// required level=3
+- 4. protector(armouritem): $80//required level=5
+- 5. lifepotion(consumableitem): $100//required level=5
+- 6. killing(consumableitem): $150//required level=8
 
 ### 遇到戰鬥：
+#### 在戰鬥之前
 - 1. 在戰鬥前，如果玩家背包有道具則詢問玩家是否要使用道具
-- 2. 如果要用道具，開始問玩家要使用背包的第幾號道具將他裝備在身上
-- 3. 道具配置完畢，則開始戰鬥
-- 4. 戰鬥開始:
-#### 如果玩家打贏怪物，則獲得money +20
+- (Battle is going to start, would you like to change your equipment?)
+##### 如果要使用: 顯示背包裡的道具
+- 開始問玩家要使用背包的第幾號道具將他裝備在身上
+##### 道具配置：
+- Press the number of the item you want to equip, or input x to leave
+- 檢查輸入的號碼對應到背包裡的哪一個道具，將他配置於weapon 或 armor
+##### 如果要使用 但背包裡沒有道具:
+- Oops!Your backpack is empty.
+- 前往戰鬥 戰鬥開始
+
+##### 道具配置完畢，則開始戰鬥
+#### 戰鬥開始:
+##### 如果背包裡有consumable item 則問玩家是否要使用
+##### 如果玩家有配置weapon 和 armor 
+- 把weapon 和armor 各自的功效(提升攻擊力或防禦力等) 在戰鬥前先提升
+##### 如果玩家打贏怪物，則獲得money +20
 ### 走到終點
 - 遊戲結束 
 
