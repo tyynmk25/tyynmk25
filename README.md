@@ -4,6 +4,7 @@
   Everyone live in desperate and wish a Savior to protect them.
   As a descendent of Lily and James Poter, can you try your best to save the world?
   You should try to beat all the Death Eater or collect the 7 hallows, which are Voldemort's Horcrux(分靈體)
+  ![image](https://github.com/tyynmk25/tyynmk25/blob/main/1.jpg)
 ## 故事開場：
 - Sorting Hat : Hmmm...Difficult to sort...Plenty of courage and kind heart...
 -	Harry Potter: Not Slytherin!
