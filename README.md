@@ -20,7 +20,7 @@
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
 ## 角色設定：
 - 為自己的角色設定名字
-- - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
 - 顯示隊友Ron, Hermione 的資訊
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
 ### 選擇要用初始化的角色還是要load file 裡的角色( 輸入1為load file, 其他則為初始化角色) 
@@ -32,12 +32,16 @@
 ### 在地圖上走迷宮，用WASD控制方向
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/6.jpg)
 ### 被渾拚柳吹到隨機的地方(@@)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/11.jpg)
 ### 抽獎(@@)
 - 除了咒語是1/60機率，其他皆有機會中獎，如果重量或數量不合導致無法放入，輸出"Can't put"
+- 
 ### 猜數字(@@)
 - 如果猜對會獲得寶劍
+- 
 ### 塔羅牌算命(@@)
 - 命運會隨機決定，可能會扣錢或得到錢，也可能增加經驗值...等等
+- 
 ### Hint(@@)
 - 告訴玩家最後一個聖物的所在地
 ### 得到地圖2(WW)
@@ -57,13 +61,14 @@
 - 6. killing(consumableitem): $150//required level=8
 ##### 請玩家輸入要買哪個道具
 - Press a to buy a sword, b to buy a wand, c to buy a cloak,d to buy a protector, e to buy a lifepotion,f to buy a killing curse.Press x to leave
-
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/9.jpg)
 ### 遇到戰鬥：
 #### 在戰鬥之前
 - 1. 在戰鬥前，如果玩家背包有道具則詢問玩家是否要使用道具
 - (Battle is going to start, would you like to change your equipment?)
 - 2. 如果背包沒有道具，直接開始戰鬥
 ##### 若要使用道具，則秀出背包所有道具，請玩家輸入要放入的編號
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/10.jpg)
 ##### 若背包有consumable 的道具，請玩家輸入是否要使用
 ##### 實作方法
 - 1. 先去檢查backpack，如果第一格!=NULL，則開始輸出backpack每一格的道具
