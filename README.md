@@ -41,13 +41,13 @@
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/11.jpg)
 ### 抽獎(@@)
 - 除了咒語是1/60機率，其他皆有機會中獎，如果重量或數量不合導致無法放入，輸出"Can't put"-
-- 
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/12.jpg)
 ### 猜數字(@@)
 - 如果猜對會獲得寶劍
-- 
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/13.jpg)
 ### 塔羅牌算命(@@)
 - 命運會隨機決定，可能會扣錢或得到錢，也可能增加經驗值...等等
-- 
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/14.jpg)
 ### Hint(@@)
 - 告訴玩家最後一個聖物的所在地
 ### 得到地圖2(WW)
