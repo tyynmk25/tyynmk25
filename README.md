@@ -9,7 +9,7 @@
 - Sorting Hat : Hmmm...Difficult to sort...Plenty of courage and kind heart...
 - Harry Potter: Not Slytherin!
 - Sorting Hat: Are you sure? You will get great success there. But if not Slytherin...Gryffindor!
-- ![image] (https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
 ## 遊戲規則簡介
   You are going to collect all the hollows to beat the Voldemort.
 	To collect the hollows, you will have to walk through the field, and beat the monsters you encounter.
@@ -21,10 +21,10 @@
 ## 角色設定：
 - 為自己的角色設定名字
 - 顯示隊友Ron, Hermione 的資訊
-- ![image]  (https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
 ### 選擇要用初始化的角色還是要load file 裡的角色( 輸入1為load file, 其他則為初始化角色) 
 #### 輸入1 :
-- ![image]  (https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
 #### 輸入其他 ：
 
 ## 遊戲開始：
