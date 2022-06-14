@@ -9,26 +9,28 @@
 - Sorting Hat : Hmmm...Difficult to sort...Plenty of courage and kind heart...
 - Harry Potter: Not Slytherin!
 - Sorting Hat: Are you sure? You will get great success there. But if not Slytherin...Gryffindor!
-- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
 ## 遊戲規則簡介
   You are going to collect all the hollows to beat the Voldemort.
-	To collect the hollows, you will have to walk through the field, and beat the monsters you encounter.
-	There are 5 hollows now in this field, and the other two are in another 2 fields.
-	Once you collect 5 hollows and step on the square that is marked with W, you will be sent to another field.
-	Besides monster, you may go to a store, encounter some special activities that is marked with @@
-	After a battle, you can save your game status to a save.txt
-	Your journey starts!
+  To collect the hollows, you will have to walk through the field, and beat the monsters you encounter.
+  There are 5 hollows now in this field, and the other two are in another 2 fields.
+  Once you collect 5 hollows and step on the square that is marked with W, you will be sent to another field.
+  Besides monster, you may go to a store, encounter some special activities that is marked with @@
+  After a battle, you can save your game status to a save.txt
+  Your journey starts!
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
 ## 角色設定：
 - 為自己的角色設定名字
+- - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
 - 顯示隊友Ron, Hermione 的資訊
-- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/3.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
 ### 選擇要用初始化的角色還是要load file 裡的角色( 輸入1為load file, 其他則為初始化角色) 
 #### 輸入1 :
-- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
+(5)
 #### 輸入其他 ：
-
+(7)
 ## 遊戲開始：
 ### 在地圖上走迷宮，用WASD控制方向
+(6)
 ### 遇到事件:
 - 1. 例如: Oops!!You are attack by the Whomping Willow(渾拚柳)!You are thrown to a random place on the map!
    - 1.1 會將玩家的位置隨機放到地圖上的任何一個地方
@@ -57,7 +59,8 @@
 ##### 如果要使用 但背包裡沒有道具:
 - Oops!Your backpack is empty.
 - 前往戰鬥 戰鬥開始
-
+##### 如果沒有道具 直接開始battle
+(8)
 ##### 道具配置完畢，則開始戰鬥
 #### 戰鬥開始:
 ##### 如果背包裡有consumable item 則問玩家是否要使用
