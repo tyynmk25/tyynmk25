@@ -25,12 +25,12 @@
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
 ### 選擇要用初始化的角色還是要load file 裡的角色( 輸入1為load file, 其他則為初始化角色) 
 #### 輸入1 :
-(5)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/5.jpg)
 #### 輸入其他 ：
-(7)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/7.jpg)
 ## 遊戲開始：
 ### 在地圖上走迷宮，用WASD控制方向
-(6)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/6.jpg)
 ### 遇到事件:
 - 1. 例如: Oops!!You are attack by the Whomping Willow(渾拚柳)!You are thrown to a random place on the map!
    - 1.1 會將玩家的位置隨機放到地圖上的任何一個地方
@@ -60,7 +60,7 @@
 - Oops!Your backpack is empty.
 - 前往戰鬥 戰鬥開始
 ##### 如果沒有道具 直接開始battle
-(8)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/8.jpg)
 ##### 道具配置完畢，則開始戰鬥
 #### 戰鬥開始:
 ##### 如果背包裡有consumable item 則問玩家是否要使用
