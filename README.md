@@ -48,12 +48,20 @@
 ### 塔羅牌算命(@@)
 - 命運會隨機決定，可能會扣錢或得到錢，也可能增加經驗值...等等
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/14.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/19.jpg)
 ### Hint(@@)
 - 告訴玩家最後一個聖物的所在地
 ### 得到地圖2(WW)
 - 如果已經獲得五個聖物，則踩到此格可以直接被送往地圖2，否則繼續在地圖1蒐集聖物
 ### 得到地圖3(WW)
 - 如果已經獲得六個聖物，則踩到此格可以直接被送往地圖3，否則繼續在地圖2蒐集聖物
+### 對話一
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/16.jpg)
+### 對話二
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/17.jpg)
+### 對話三
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/18.jpg)
+
 ### 如果收集完7個聖物，且踩到此格，遊戲結束，玩家獲勝
 
 ### 遇到商店：
