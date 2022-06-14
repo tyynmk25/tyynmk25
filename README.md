@@ -10,13 +10,9 @@
 - Harry Potter: Not Slytherin!
 - Sorting Hat: Are you sure? You will get great success there. But if not Slytherin...Gryffindor!
 ## 遊戲規則簡介
-  You are going to collect all the hollows to beat the Voldemort.
-  To collect the hollows, you will have to walk through the field, and beat the monsters you encounter.
-  There are 5 hollows now in this field, and the other two are in another 2 fields.
-  Once you collect 5 hollows and step on the square that is marked with W, you will be sent to another field.
-  Besides monster, you may go to a store, encounter some special activities that is marked with @@
-  After a battle, you can save your game status to a save.txt
-  Your journey starts!
+- 在這場遊戲中，玩家必須獲得七個聖物才可獲勝，透過在地圖上移動，會遭遇各種事件，當遇到Monster時，會進入戰鬥，若成功打敗怪物，則會獲得一個聖物
+- 總共有7個聖物，在第一張地圖共有5個聖物，第二張有一個，必須移動到第三張地圖才會獲得第7個聖物並獲得勝利
+- 在地圖中，空白處是空地，@@是有特殊事件或怪物出沒的地方，WW是地圖轉換門，移動時利用w/a/s/d移動
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/2.jpg)
 ## 角色設定：
 - 為自己的角色設定名字
