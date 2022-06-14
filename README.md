@@ -25,16 +25,22 @@
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/4.jpg)
 ### 選擇要用初始化的角色還是要load file 裡的角色( 輸入1為load file, 其他則為初始化角色) 
 #### 輸入1 :
+- 從檔案讀出角色的資料，放入player_list[0]
+- 從檔案讀到玩家現在在哪張地圖的哪個位置
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/5.jpg)
-#### 輸入其他 ：
+#### 輸入其他：
+- 初始化角色，且由map1 (1,1)開始走
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/7.jpg)
+##### 實作方法
+- 使用unserialize()讀檔做出角色
+- 使用readmap()和loadmap()讀出現在的地圖和座標位置
 ## 遊戲開始：
 ### 在地圖上走迷宮，用WASD控制方向
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/6.jpg)
 ### 被渾拚柳吹到隨機的地方(@@)
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/11.jpg)
 ### 抽獎(@@)
-- 除了咒語是1/60機率，其他皆有機會中獎，如果重量或數量不合導致無法放入，輸出"Can't put"
+- 除了咒語是1/60機率，其他皆有機會中獎，如果重量或數量不合導致無法放入，輸出"Can't put"-
 - 
 ### 猜數字(@@)
 - 如果猜對會獲得寶劍
