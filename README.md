@@ -31,46 +31,51 @@
 ## 遊戲開始：
 ### 在地圖上走迷宮，用WASD控制方向
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/6.jpg)
-### 遇到事件:
-- 1. 例如: Oops!!You are attack by the Whomping Willow(渾拚柳)!You are thrown to a random place on the map!
-   - 1.1 會將玩家的位置隨機放到地圖上的任何一個地方
-### 遇到商店:Welcome to Honey's Duke!
-#### 如果有錢的話可以選擇購買道具: sword, wand, cloak, protector, lifepotion, killing curse
-#### 如果背包有位置(slot符合) 、重量符合(<=backpack_weight_limit) 就可以購買
-#### 道具有以下幾種
-##### Press a to buy a sword, b to buy a wand, c to buy a cloak,d to buy a protector, e to buy a lifepotion,f to buy a killing curse.
-##### Press x to leave
+### 被渾拚柳吹到隨機的地方(@@)
+### 抽獎(@@)
+- 除了咒語是1/60機率，其他皆有機會中獎，如果重量或數量不合導致無法放入，輸出"Can't put"
+### 猜數字(@@)
+- 如果猜對會獲得寶劍
+### 塔羅牌算命(@@)
+- 命運會隨機決定，可能會扣錢或得到錢，也可能增加經驗值...等等
+### Hint(@@)
+- 告訴玩家最後一個聖物的所在地
+### 得到地圖2(WW)
+- 如果已經獲得五個聖物，則踩到此格可以直接被送往地圖2，否則繼續在地圖1蒐集聖物
+### 得到地圖3(WW)
+- 如果已經獲得六個聖物，則踩到此格可以直接被送往地圖3，否則繼續在地圖2蒐集聖物
+### 如果收集完7個聖物，且踩到此格，遊戲結束，玩家獲勝
+
+### 遇到商店：
+#### 問玩家是否要前往商店(y=yes, n=no)
+##### 若為yes
 - 1. sword(weaponitem): $20// requierd level=1 
 - 2. wand(weaponitem): $30// required level=3 
 - 3. cloak(armoritem): $50// required level=3
 - 4. protector(armouritem): $80//required level=5
 - 5. lifepotion(consumableitem): $100//required level=5
 - 6. killing(consumableitem): $150//required level=8
+##### 請玩家輸入要買哪個道具
+- Press a to buy a sword, b to buy a wand, c to buy a cloak,d to buy a protector, e to buy a lifepotion,f to buy a killing curse.Press x to leave
 
 ### 遇到戰鬥：
 #### 在戰鬥之前
 - 1. 在戰鬥前，如果玩家背包有道具則詢問玩家是否要使用道具
 - (Battle is going to start, would you like to change your equipment?)
-##### 如果要使用: 顯示背包裡的道具
-- 開始問玩家要使用背包的第幾號道具將他裝備在身上
-##### 道具配置：
-- Press the number of the item you want to equip, or input x to leave
-- 檢查輸入的號碼對應到背包裡的哪一個道具，將他配置於weapon 或 armor
-##### 如果要使用 但背包裡沒有道具:
-- Oops!Your backpack is empty.
-- 前往戰鬥 戰鬥開始
-##### 如果沒有道具 直接開始battle
-- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/8.jpg)
-##### 道具配置完畢，則開始戰鬥
-#### 戰鬥開始:
-##### 如果背包裡有consumable item 則問玩家是否要使用
-##### 如果玩家有配置weapon 和 armor 
-- 把weapon 和armor 各自的功效(提升攻擊力或防禦力等) 在戰鬥前先提升
-##### 如果玩家打贏怪物，則獲得money +20
-### 走到終點
-- 遊戲結束 
-
-
+- 2. 如果背包沒有道具，直接開始戰鬥
+##### 若要使用道具，則秀出背包所有道具，請玩家輸入要放入的編號
+##### 若背包有consumable 的道具，請玩家輸入是否要使用
+##### 實作方法
+- 1. 先去檢查backpack，如果第一格!=NULL，則開始輸出backpack每一格的道具
+- 2. 如果有consumable，則問玩家要不要使用
+#### 開始戰鬥
+##### 實作方法
+- 1. 每一個battle都有不同種怪物、不同數量組成，actionlist先把玩家(共3人)放入，再放入Monster
+- 2. 輪到玩家攻擊時，從Monster第一個開始找，若alive==1則先攻擊他，monster攻擊時則是從第三位玩家開始進行攻擊
+- 3. 用for和while迴圈讓他們進行戰鬥
+- 4. 直到有一方全部死掉(hp==0)，則戰鬥結束，若玩家獲勝則獲得一個hollow和Money、經驗值...等
+- 5. 戰鬥結束後會問完加是否要save file，把遊戲status 輸出成save.txt
+- 6. 這一格在戰鬥結束後會被設為空地
 <!---
 tyynmk25/tyynmk25 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
