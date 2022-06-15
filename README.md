@@ -73,7 +73,7 @@
 - 5. lifepotion(consumableitem): $100//required level=5
 - 6. killing(consumableitem): $150//required level=8
 ##### 請玩家輸入要買哪個道具
-- Press a to buy a sword, b to buy a wand, c to buy a cloak,d to buy a protector, e to buy a lifepotion,f to buy a killing curse.Press x to leave
+- Press a =sword, b =wand, c =cloak,d =protector, e =lifepotion,f killing curse. x =leave
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/9.jpg)
 ### 遇到戰鬥：
 #### 在戰鬥之前
@@ -87,12 +87,16 @@
 - 1. 先去檢查backpack，如果第一格!=NULL，則開始輸出backpack每一格的道具
 - 2. 如果有consumable，則問玩家要不要使用
 #### 開始戰鬥
+#### 戰鬥結束
+- 1. 如果玩家贏了會秀出"Player win"並讓增加經驗值、贏得一個聖物
+- 2. 問玩家是否要save game status(y=yes, 其他=no)
+- 繼續讓玩家移動
 ##### 實作方法
 - 1. 每一個battle都有不同種怪物、不同數量組成，actionlist先把玩家(共3人)放入，再放入Monster
 - 2. 輪到玩家攻擊時，從Monster第一個開始找，若alive==1則先攻擊他，monster攻擊時則是從第三位玩家開始進行攻擊
 - 3. 用for和while迴圈讓他們進行戰鬥
 - 4. 直到有一方全部死掉(hp==0)，則戰鬥結束，若玩家獲勝則獲得一個hollow和Money、經驗值...等
-- 5. 戰鬥結束後會問完加是否要save file，把遊戲status 輸出成save.txt
+- 5. 戰鬥結束後會問玩家是否要save file，把遊戲status 輸出成save.txt
 - 6. 這一格在戰鬥結束後會被設為空地
 <!---
 tyynmk25/tyynmk25 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
