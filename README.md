@@ -23,6 +23,8 @@
 #### 輸入1 :
 - 從檔案讀出角色的資料，放入player_list[0]
 - 從檔案讀到玩家現在在哪張地圖的哪個位置
+- 檔案裡的文字格式:
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/24.jpg)
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/5.jpg)
 #### 輸入其他：
 - 初始化角色，且由map1 (1,1)開始走
