@@ -47,7 +47,7 @@
 - 命運會隨機決定，可能會扣錢或得到錢，也可能增加經驗值...等等
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/14.jpg)
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/19.jpg)
-### 道具精煉廠(@@)
+### 道具精煉廠(@@)(additional feature)
 - 在這裡可以將道具進化，分為初級進化和進階進化，各需$100、$200
 - 只有weapon和armour可以進化
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/25.jpg)
