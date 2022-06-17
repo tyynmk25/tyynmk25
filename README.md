@@ -50,6 +50,8 @@
 ### 道具精煉廠(@@)
 - 在這裡可以將道具進化，分為初級進化和進階進化，各需$100、$200
 - 只有weapon和armour可以進化
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/25.jpg)
+- ![image](https://github.com/tyynmk25/tyynmk25/blob/main/26.jpg)
 ##### 實作方法
 - 如果玩家的錢介於100~200元，走到此地會問是是否進行初階進化
 - 如果玩家的錢大於200元，會問要進行初階進化還是進階進化
