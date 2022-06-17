@@ -85,7 +85,8 @@
 ##### 請玩家輸入要買哪個道具
 - Press a =sword, b =wand, c =cloak,d =protector, e =lifepotion,f killing curse. x =leave
 - ![image](https://github.com/tyynmk25/tyynmk25/blob/main/9.jpg)
-### 遇到戰鬥：
+### 遇到戰鬥(☆)：
+- 共有七場戰鬥，每場戰鬥怪物種類數量皆不同
 #### 在戰鬥之前
 - 1. 在戰鬥前，如果玩家背包有道具則詢問玩家是否要使用道具
 - (Battle is going to start, would you like to change your equipment?)
